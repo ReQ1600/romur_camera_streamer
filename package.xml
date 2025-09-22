@@ -12,6 +12,13 @@
   <depend>rclcpp</depend>
   <depend>sensor_msgs</depend>
 
+  <exec_depend>libavcodec-dev</exec_depend>
+  <exec_depend>libavformat-dev</exec_depend>
+  <exec_depend>libavutil-dev</exec_depend>
+  <exec_depend>libswscale-dev</exec_depend>
+  <exec_depend>libavdevice-dev</exec_depend>
+
+
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
